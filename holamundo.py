@@ -9,8 +9,7 @@ meses = (
     "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
     "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
 )
-numero_mes = hoy.month
-nombre_mes = meses[numero_mes - 1]
+nombre_mes = meses[hoy.month - 1]
 print("hoy es:", hoy.day, "de", nombre_mes, "de", hoy.year)
 nombre = input("Ingrese su nombre: ")
 año_nacimiento = int(input("Ingrese su año de nacimiento: "))

@@ -25,3 +25,8 @@ if mes_actual < mes_nacimiento or (mes_actual == mes_nacimiento and dia_actual <
     edad -= 1
 #Muestro el resultado
 print(f"La edad de {nombre} es: {edad} años")
+
+if edad < 40:
+    print(f"Felicidades {nombre} aun eres joven")
+else:
+    print(f"PFF TIENES {edad} años, Here lies your youth")

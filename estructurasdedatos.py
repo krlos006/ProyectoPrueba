@@ -49,3 +49,31 @@ print(numeros)  # {1, 2, 3, 4} -> Elimina el 3 duplicado automáticamente
 a = {1, 2, 3}
 b = {3, 4, 5}
 print(a.intersection(b))  # {3}
+
+print("Comienzan los juegos del hambre")
+'''Ejercicio 1: Limpiador e Historial de Duplicados
+Consigna:
+Dado la siguiente lista con datos duplicados:
+entradas = [10, 20, 10, 30, 20, 40, 50, 10]'''
+
+# 1. Lista inicial con duplicados
+entradas = [10, 20, 10, 30, 20, 40, 50, 10]
+print(entradas, "<- Lista inicial")
+
+# 2. Convertimos a set para ELIMINAR duplicados
+entradas_sin_duplicados = set(entradas)
+print(entradas_sin_duplicados, "<- Valores únicos (gracias al conjunto)")
+
+# 3. Ordenamos la colección
+entradas_ordenadas = sorted(entradas_sin_duplicados)
+
+# 4. Convertimos a tupla para CONGELAR/PROTEGER el resultado (Inmutabilidad)
+entradas_final = tuple(entradas_ordenadas)
+print(entradas_final, "<- Tupla final (ordenada e inmutable)")
+
+'''Ejercicio 2: Gestor de Inventario con Diccionarios
+Consigna:
+Crea un programa que simule un inventario de tienda utilizando 
+un diccionario, donde la clave sea el nombre del producto y el valor 
+sea un diccionario secundario con el precio y el stock.'''
+

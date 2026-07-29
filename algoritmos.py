@@ -3,7 +3,6 @@
 #numeros = [1, 2, 3, 4, 5]
 #for numero in numeros:
 #    print(f"Imprimo {numero}")
-
 # Ejercicio fizz buzz
 for i in range(1, 101):
     if i % 15 == 0:
@@ -25,8 +24,6 @@ numeros_sin_repetir = sorted(list(set(numeros)), reverse=True) #reverse=True par
 print(f"Dado el arreglo: {numeros}; los numeros repetidos son: {repetidos}, la lista ordenada es: {sorted(numeros_sin_repetir)} y el numero mas alto es: {numeros_sin_repetir[0]}")
 
 
-'''
-message = "MARCELA FLOJA ESTUDIA JAJAJA"
 #Tablas de multiplicar del 1 al 10
 print("Tabla de multiplicar del 1 al 10")
 print()
@@ -35,5 +32,10 @@ for x in range(1, 11):
     for y in range(1, 11):
         print(f"{x} x {y} = {x * y}")
     print()
-print(message)
-    '''
+
+
+# Mostrar elementos de una lista sin comillas ni comas
+palabras = ("hola", "mundo", "python", "programacion")
+print(f"Palabras: {' | '.join(palabras)}")
+
+

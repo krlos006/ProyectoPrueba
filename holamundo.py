@@ -1,4 +1,4 @@
-#Hola Mundo en Python
+'''#Hola Mundo en Python
 print("¡Hola, desde Visual Studio Code!")
 print("¡Estamos avanzando!")
 
@@ -30,3 +30,10 @@ if edad < 40:
     print(f"Felicidades {nombre} aun eres joven")
 else:
     print(f"PFF TIENES {edad} años, Here lies your youth")
+'''
+
+n = 7
+if n % 2 = 0:
+    print(f"{n} es un número par")
+else:
+    print(f"{n} es un número impar")
